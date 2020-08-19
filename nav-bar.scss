@@ -1,0 +1,125 @@
+/* DECLARAÇÃO DE VARIÁVEIS */
+
+:root {
+    --nav-bar-color: #d7c5af;
+    --menu-bar-color: #642a7b;
+    --nav-bar-shadow: ;
+    --info-display: none;
+    --info-flex: none;
+    
+    --menu: block;
+    --xis: none;
+    
+    --nav-bar-background-big: transparent;
+    --nav-bar-color-big: white;
+    --nav-bar-shadow-big: ;
+    
+    --buttom-color: white;
+    --buttom-background: #b75713;
+    --buttom-background-hover: #d46b21;
+    
+    --buttom-background-first: transparent;
+    --buttom-color-first: white;
+}
+
+/* VARIÁVEIS PARA TAMANHO PEQUENO */
+
+.inverse {
+    --menu-bar-color: #642a7b;
+    --nav-bar-color: #d7c5af;
+    --nav-bar-shadow: 0px 5px 7px rgba(0,0,0,0.07);
+}
+
+.color {
+    --menu-bar-color: white;
+    --nav-bar-color: #642a7b;
+    --nav-bar-shadow: 0px 5px 7px rgba(0,0,0,0.07);
+}
+
+.display {
+    --info-display: block;
+    --info-flex: flex;
+    --page-overflow: hidden;
+    --menu: none;
+    --xis: block;
+}
+
+/* VARIÁVEIS PARA TAMANHO GRANDE */
+
+.inverseBig {
+    --nav-bar-background-big: #642a7b;
+    --nav-bar-color-big: white;
+    --nav-bar-shadow: 0px 5px 7px rgba(0,0,0,0.07);
+}
+
+.inverseButtom {
+    --buttom-background: white;
+    --buttom-color: #642a7b;
+    --buttom-background-hover: white;
+    --buttom-background-inverse: rgba(255, 255, 255, 0.1);
+    --buttom-color-inverse: #883fa5;
+}
+
+/* TAMANHO GRANDE */
+
+.login, .register {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    border-radius: 25px;
+    padding: 8px 17px; 
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login {
+    background: var(--buttom-background-first);
+    color: var(--buttom-background);
+    border: 2px solid var(--buttom-background);
+    margin: 0 4px;
+    transition: color 0.25s ease, border 0.25s ease, background 0.25s ease;
+}
+
+.login:hover {
+    color: var(--buttom-background-hover);
+    border: 2px solid var(--buttom-background-hover);
+    background: var(--buttom-background-inverse);
+}
+
+.register {
+    background: var(--buttom-background);
+    color: var(--buttom-color);
+    border: 2px solid var(--buttom-background);
+    transition: background 0.25s ease, border 0.25s ease, color 0.25s ease;
+}
+
+.register:hover {
+    background: var(--buttom-background-hover);
+    border: 2px solid var(--buttom-background-hover);
+    color: var(--buttom-color-inverse, white);
+}
+
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav-bar-center {
+    color: var(--nav-bar-color-big);
+    background: var(--nav-bar-background-big);
+    box-shadow: var(--nav-bar-shadow);
+    
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    transition: .25s ease background, .25s ease color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-info-center {
+    display: none;
+}

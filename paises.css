@@ -1,0 +1,14 @@
+.pais {
+    background: rgba(214, 104, 9, 0.71);
+    transition: 0.3s ease;
+}
+
+.botao {
+    background: #008920!important;
+    transition: 0.1s ease; 
+}
+
+.botao:hover {
+    background: #045d19!important;
+    cursor: pointer;
+}

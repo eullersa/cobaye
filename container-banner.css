@@ -1,0 +1,152 @@
+/* BANNERS & LANGUAGES */
+
+.banner-center {
+    height: 100%;
+    height: auto;
+}
+
+.banner {
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: ghostwhite;
+}
+
+.banner-center-info,
+.banner-center-lang {
+    width: 50%;
+    height: 480px;
+}
+
+.banner nav {
+    width: 100%;
+    height: 90px;
+}
+
+.banner footer {
+    width: 100%;
+    height: 50px;
+}
+
+/* BANNER DIREITO */
+
+.banner-center-info {
+    /* background: rgba(195, 83, 42, 0.5); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info {
+    /* background: rgba(42, 166, 195, 0.5); */
+    font-size: 26px;
+    max-width: 500px;
+}
+
+.banner-info h1 {
+    font-weight: 900;
+}
+
+.banner-image-info {
+    padding: 0 30px;
+}
+
+.banner-image-info img {
+    max-width: 360px;
+}
+
+/* BANNER ESQUERDO */
+
+.banner-center-lang {
+    /* background: rgba(54, 42, 195, 0.5); */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-lang {
+    /* background: rgba(42, 166, 195, 0.5); */
+    max-width: 415px;
+    width: 100%;
+}
+
+.banner-image-lang {
+    padding: 0 40px;
+}
+
+.banner-image-lang img {
+    max-width: 360px;
+}
+
+.banner-lang-text {    
+    font-size: 17px;
+    color: #471c70;
+}
+
+.banner-lang-text h1 {
+    font-weight: 900;
+}
+
+/* PAÍSES */
+
+.paises {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 10px;
+}
+
+.paises-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.frances,
+.ingles,
+.espanhol {
+    width: 64px;
+    height: 64px;
+    background: rgba(71, 28, 112);
+    background: rgba(71, 28, 112, 0.3);
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.frances img,
+.ingles img,
+.espanhol img {
+    width: 50px;
+}
+
+/* BOTÃO */
+
+.banner .button {
+    background: rgba(71, 28, 112, 0.6);
+    color: ghostwhite;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 18px; 
+    font-size: 22px;
+    font-weight: 900;
+    transition: background 0.5s ease;
+}
+
+/* RODAPÉ DOS PAÍSES */
+
+.banner footer {
+    /* background: rgba(212, 14, 189, 0.5); */
+    background-image: url(objetos/paises.svg);
+    background-position: center;
+    background-repeat: repeat;  
+}

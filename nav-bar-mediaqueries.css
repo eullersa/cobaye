@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@media only screen and (max-width: 700px) {
+  /* PARTE DO MENU PARA TELAS PEQUENAS */
+  body {
+    overflow: var(--page-overflow); }
+
+  .buttoms {
+    display: none; }
+
+  .colorDisplay {
+    --menu-bar-color: white;
+    --nav-bar-color: #642a7b;
+    --nav-bar-shadow: 0px 5px 7px rgba(0,0,0,0.07); }
+
+  .menu .menu-bar {
+    background: white;
+    width: 30px;
+    height: 4px;
+    border-radius: 60px;
+    transition: .25s ease background; }
+
+  .menu .menu-bar:nth-child(2) {
+    margin: 4px 0; }
+
+  .menu {
+    display: none;
+    cursor: pointer; }
+
+  /* PARTE PARA LOGIN */
+  .nav-bar-info {
+    display: none;
+    height: calc(100vh - 70px);
+    width: 100%;
+    background: #3e184d; }
+
+  .nav-bar-center {
+    background: var(--nav-bar-color);
+    box-shadow: var(--nav-bar-shadow);
+    color: var(--menu-bar-color); }
+
+  .menu .menu-bar {
+    background: var(--menu-bar-color); }
+
+  /* PARTE PARA INFO */
+  .nav-bar-info {
+    display: var(--info-flex);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    transition: .25s ease background; }
+
+  .nav-bar-info a {
+    border-radius: 50px;
+    padding: 8px 17px;
+    border: 4px solid white;
+    text-decoration: none;
+    font-size: 25px;
+    color: white; }
+
+  .nav-bar-info-center {
+    display: var(--info-flex);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 130px; }
+
+  .menu {
+    display: var(--menu); }
+
+  /* BOTÃO DE XIS */
+  .xis {
+    margin-top: 4px;
+    display: var(--xis);
+    cursor: pointer; }
+
+  .xis .menu-bar {
+    background: white;
+    width: 30px;
+    height: 4px;
+    border-radius: 60px; }
+
+  .xis .menu-bar:nth-child(2) {
+    margin-left: 4px; }
+
+  .xis .menu-bar:nth-child(1) {
+    transform: rotate(45deg); }
+
+  .xis .menu-bar:nth-child(2) {
+    transform: rotate(-45deg) translateY(-6px); } }
+
+/*# sourceMappingURL=nav-bar-mediaqueries.css.map */

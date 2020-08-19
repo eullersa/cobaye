@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100%;
+}
+
+.background {
+    background-image: url(objetos/wallpaper.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    overflow: hidden;
+    -ms-grid-columns: (12%)[4] 4% (12%)[4];
+    grid-template-columns: repeat(4, 12%) 4% repeat(4, 12%);
+    -ms-grid-rows: 20px (25%)[4];
+    grid-template-rows: 20px repeat(4, 150px);
+        grid-template-areas:
+        "d  d  d  d  bordas e   e   e   e"
+        "b1 b2 b2 b5 bordas b10 b11 b12 b16"
+        "b3 b3 b  b5 bordas b20 a   a   b18"
+        "b4 b8 b7 b6 bordas b13 a   a   b14"
+        "b4 b9 b9 b6 bordas b17 c   b19 b15"
+    ;
+    position: absolute;
+    z-index: 0;
+}
+
+.bordas {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    -ms-grid-column: 5;
+    grid-area: bordas;
+}
+
+.bordas img {
+    width: 90px;
+    display: block;
+    position: absolute;
+    left: calc(50% - 45px);
+}
+
+.bottom1 {
+    grid-area: b1;
+}
+
+.bottom2 {
+    grid-area: b2;
+}
+
+.bottom3 {
+    grid-area: b3;
+}
+
+.bottom4 {
+    grid-area: b4;
+}
+
+.bottom5 {
+    grid-area: b5;
+}
+
+.bottom6 {
+    grid-area: b6;
+}
+
+.bottom7 {
+    grid-area: b7;
+}
+
+.bottom8 {
+    grid-area: b8;
+}
+
+.bottom9 {
+    grid-area: b9;
+}
+
+.bottom10 {
+    grid-area: b10;
+}
+
+.bottom11 {
+    grid-area: b11;
+}
+
+.bottom12 {
+    grid-area: b12;
+}
+
+.bottom13 {
+    grid-area: b13;
+}
+
+.bottom14 {
+    grid-area: b14;
+}
+
+.bottom15 {
+    grid-area: b15;
+}
+
+.bottom16 {
+    grid-area: b16;
+}
+
+.bottom17 {
+    grid-area: b17;
+}
+
+.bottom18 {
+    grid-area: b18;
+}
+
+.bottom19 {
+    grid-area: b19;
+}
+
+.bottom20 {
+    grid-area: b20;
+}
+
+.fig1,
+.fig2, 
+.fig3, 
+.fig4, 
+.fig5, 
+.fig6, 
+.fig7, 
+.fig8,
+.fig10,
+.fig11,
+.fig12, 
+.fig13, 
+.fig14, 
+.fig15, 
+.fig16, 
+.fig17, 
+.fig18,
+.fig19,
+.fig20{
+    width: 170px;
+}
+
+.fig1 {
+    position: absolute;
+    -webkit-transform: translateY(24px) translateX(-14px);
+        -ms-transform: translateY(24px) translateX(-14px);
+            transform: translateY(24px) translateX(-14px);
+}
+
+.fig2 {
+    position: absolute;
+    -webkit-transform: translateY(55px) translateX(40px);
+        -ms-transform: translateY(55px) translateX(40px);
+            transform: translateY(55px) translateX(40px);
+}
+
+.fig3 {
+    position: absolute;
+    -webkit-transform: translateY(0px) translateX(20px);
+        -ms-transform: translateY(0px) translateX(20px);
+            transform: translateY(0px) translateX(20px);
+}
+
+.fig4 {
+    -webkit-transform: translateY(90px) translateX(-19px);
+        -ms-transform: translateY(90px) translateX(-19px);
+            transform: translateY(90px) translateX(-19px);
+}
+
+.fig5 {
+    position: absolute;
+    -webkit-transform: translateY(0px) translateX(-50px);
+        -ms-transform: translateY(0px) translateX(-50px);
+            transform: translateY(0px) translateX(-50px);
+}
+
+.fig6 {
+    position: absolute;
+    -webkit-transform: translateY(40px) translateX(-25px);
+        -ms-transform: translateY(40px) translateX(-25px);
+            transform: translateY(40px) translateX(-25px);
+}
+
+.fig7 {
+    position: absolute;
+    -webkit-transform: translateY(-15px) translateX(40px);
+        -ms-transform: translateY(-15px) translateX(40px);
+            transform: translateY(-15px) translateX(40px);
+}
+
+.fig8 {
+    position: absolute;
+    -webkit-transform: translateY(0px) translateX(-25px);
+        -ms-transform: translateY(0px) translateX(-25px);
+            transform: translateY(0px) translateX(-25px);
+}
+
+.fig11 {
+    position: absolute;
+    -webkit-transform: translateY(0px) translateX(-10px);
+        -ms-transform: translateY(0px) translateX(-10px);
+            transform: translateY(0px) translateX(-10px);
+}
+
+.fig12 {
+    position: absolute;
+    -webkit-transform: translateY(5px) translateX(-25px);
+        -ms-transform: translateY(5px) translateX(-25px);
+            transform: translateY(5px) translateX(-25px);
+}
+
+.fig13 {
+    position: absolute;
+    -webkit-transform: translateY(79px) translateX(0px);
+        -ms-transform: translateY(79px) translateX(0px);
+            transform: translateY(79px) translateX(0px);
+}
+
+.fig14 {
+    position: absolute;
+    -webkit-transform: translateY(-160px) translateX(0px);
+        -ms-transform: translateY(-160px) translateX(0px);
+            transform: translateY(-160px) translateX(0px);
+}
+
+.fig15 {
+    position: absolute;
+    -webkit-transform: translateY(0px) translateX(-10px);
+        -ms-transform: translateY(0px) translateX(-10px);
+            transform: translateY(0px) translateX(-10px);
+}
+
+.fig16 {
+    position: absolute;
+    -webkit-transform: translateY(30px) translateX(0px);
+        -ms-transform: translateY(30px) translateX(0px);
+            transform: translateY(30px) translateX(0px);
+}
+
+.fig17 {
+    position: absolute;
+    -webkit-transform: translateY(0px) translateX(20px);
+        -ms-transform: translateY(0px) translateX(20px);
+            transform: translateY(0px) translateX(20px);
+}
+
+.fig18 {
+    position: absolute;
+    -webkit-transform: translateY(-70px) translateX(-75px);
+        -ms-transform: translateY(-70px) translateX(-75px);
+            transform: translateY(-70px) translateX(-75px);
+}
+
+.fig19 {
+    position: absolute;
+    -webkit-transform: translateY(10px) translateX(-45px);
+        -ms-transform: translateY(10px) translateX(-45px);
+            transform: translateY(10px) translateX(-45px);
+}
+
+.fig10 {
+    position: absolute;
+    -webkit-transform: translateY(50px) translateX(20px);
+        -ms-transform: translateY(50px) translateX(20px);
+            transform: translateY(50px) translateX(20px);
+}
+
+.fig20 {
+    position: absolute;
+    -webkit-transform: translateY(30px) translateX(40px);
+        -ms-transform: translateY(30px) translateX(40px);
+            transform: translateY(30px) translateX(40px);
+}
+

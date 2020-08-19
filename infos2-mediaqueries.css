@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1000px) {
+    
+    .fouritems-center {
+        margin: 0;
+        padding: 40px 0;
+    }
+    
+    .fouritems-text {
+        width: 500px;
+    }
+    
+    .fouritems {
+        padding: 0;
+        width: 630px;
+        height: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grafico, .interativo, .policoins, .favorito {
+        height: 100%;
+        height: auto;
+        width: calc(50% - (14px)*2);
+        padding: 0 14px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 700px){
+    
+    .fouritems-text {
+        width: 420px;
+    }
+    
+    .fouritems {
+        justify-content: center;
+        width: 460px;
+    }
+    
+    .grafico, .interativo, .policoins, .favorito {
+        height: 100%;
+        height: auto;
+        width: 65%;
+    }
+    
+    .policoins, .interativo, .favorito {
+        margin-bottom: 30px;
+    }
+    
+    .favorito-img, .policoins-img, .interativo-img, .grafico-img {
+        height: 100%;
+        height: auto;
+    }
+    
+    .policoins-img img {
+        width: 150px;
+    }
+    
+    .favorito-img img {
+        width: 130px;
+    }
+    
+    .interativo-img img {
+        width: 174px;
+    }
+    
+    .grafico-img img {
+        width: 130px;
+    }
+    
+    .grafico-img img, .policoins-img img, .interativo-img img, .favorito-img img {
+        height: 100%;
+        height: auto;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .fouritems-text {
+        width: 85%;
+    }
+    
+    .fouritems {
+        width: 100%;
+    }
+}

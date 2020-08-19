@@ -1,0 +1,80 @@
+.videoempresa {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.empresa-center {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.empresa {
+    /* background: blue; */
+    height: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.empresa-img {
+    height: 100%;
+    height: auto;
+    width: 140px;
+    /* background: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empresa-img img {
+    width: 100%;
+}
+
+.empresa-text {
+    margin-right: 50px;
+    height: 100%;
+    height: auto;
+    width: 510px;
+    font-family: 'Roboto', sans-serif;
+    /* background: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.empresa-text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #642A7B;
+}
+
+.empresa-text h3 {
+    margin: 20px 0;
+    font-size: 15px;
+    color: #535353;
+    line-height: 1.7em;
+}
+
+.empresa-text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    height: 16px;
+    width: 210px;
+    transition: 0.1s ease;
+    color: #af5700;
+    border-bottom: 1px solid #af5700;
+    text-align: center;
+}
+
+.empresa-text img {
+    display: inline;
+    height: 11px;
+}

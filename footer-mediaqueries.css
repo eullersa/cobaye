@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1050px) {
+    .footer {
+        width: 900px;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0 5px;
+    }
+    
+    .blockall1, .blockall2, .blockall3 {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .footer {
+        width: 650px;
+    }
+    
+    .blockall3 {
+        flex: 1 1 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .footer {
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 435px){
+    .borda-footer {
+        height: 75px;
+    }
+    
+    .borda-text {
+        flex-direction: column;
+        width: auto;
+    }
+    
+    .borda-text h1:first-child {
+        margin-bottom: 5px;
+    }
+}

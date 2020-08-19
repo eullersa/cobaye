@@ -1,0 +1,256 @@
+@media only screen and (max-width: 1000px) {
+    
+    .fig1,
+    .fig2, 
+    .fig3, 
+    .fig4, 
+    .fig5, 
+    .fig6, 
+    .fig7, 
+    .fig8,
+    .fig10,
+    .fig11,
+    .fig12, 
+    .fig13, 
+    .fig14, 
+    .fig15, 
+    .fig16, 
+    .fig17, 
+    .fig18,
+    .fig19, 
+    .fig20 {
+        width: 157px;
+    }
+
+    .fig1 {
+        -webkit-transform: translateX(-28px) translateY(24px);
+            -ms-transform: translateX(-28px) translateY(24px);
+                transform: translateX(-28px) translateY(24px);
+    }
+
+    .fig2 {
+        position: absolute;
+        -webkit-transform: translateX(30px) translateY(55px);
+            -ms-transform: translateX(30px) translateY(55px);
+                transform: translateX(30px) translateY(55px);
+    }
+
+    .fig4 {
+        -webkit-transform: translateX(-28px) translateY(90px);
+            -ms-transform: translateX(-28px) translateY(90px);
+                transform: translateX(-28px) translateY(90px);
+    }
+
+    .fig5 {
+        position: absolute;
+        -webkit-transform: translateX(-71px);
+            -ms-transform: translateX(-71px);
+                transform: translateX(-71px);
+    }
+
+    .fig6 {
+        position: absolute;
+        -webkit-transform: translateX(-55px) translateY(55px);
+            -ms-transform: translateX(-55px) translateY(55px);
+                transform: translateX(-55px) translateY(55px);
+    }
+
+    .fig7 {
+        position: absolute;
+        -webkit-transform: translateX(5px) translateY(-15px);
+            -ms-transform: translateX(5px) translateY(-15px);
+                transform: translateX(5px) translateY(-15px);
+    }
+
+    .fig8 {
+        position: absolute;
+        -webkit-transform: translateX(-55px) translateY(0px);
+            -ms-transform: translateX(-55px) translateY(0px);
+                transform: translateX(-55px) translateY(0px);
+    }
+
+    .fig11 {
+        position: absolute;
+        -webkit-transform: translateY(0px) translateX(-10px);
+            -ms-transform: translateY(0px) translateX(-10px);
+                transform: translateY(0px) translateX(-10px);
+    }
+
+    .fig12 {
+        position: absolute;
+        -webkit-transform: translateY(5px) translateX(-30px);
+            -ms-transform: translateY(5px) translateX(-30px);
+                transform: translateY(5px) translateX(-30px);
+    }
+
+    .fig13 {
+        position: absolute;
+        -webkit-transform: translateY(79px) translateX(0px);
+            -ms-transform: translateY(79px) translateX(0px);
+                transform: translateY(79px) translateX(0px);
+    }
+
+    .fig14 {
+        position: absolute;
+        -webkit-transform: translateY(-160px) translateX(-45px);
+            -ms-transform: translateY(-160px) translateX(-45px);
+                transform: translateY(-160px) translateX(-45px);
+    }
+
+    .fig15 {
+        position: absolute;
+        -webkit-transform: translateY(0px) translateX(-50px);
+            -ms-transform: translateY(0px) translateX(-50px);
+                transform: translateY(0px) translateX(-50px);
+    }
+
+    .fig16 {
+        position: absolute;
+        -webkit-transform: translateY(30px) translateX(-40px);
+            -ms-transform: translateY(30px) translateX(-40px);
+                transform: translateY(30px) translateX(-40px);
+    }
+
+    .fig17 {
+        position: absolute;
+        -webkit-transform: translateY(0px) translateX(8px);
+            -ms-transform: translateY(0px) translateX(8px);
+                transform: translateY(0px) translateX(8px);
+    }
+
+    .fig18 {
+        position: absolute;
+        -webkit-transform: translateY(-70px) translateX(-75px);
+            -ms-transform: translateY(-70px) translateX(-75px);
+                transform: translateY(-70px) translateX(-75px);
+    }
+
+    .fig19 {
+        position: absolute;
+        -webkit-transform: translateY(10px) translateX(-45px);
+            -ms-transform: translateY(10px) translateX(-45px);
+                transform: translateY(10px) translateX(-45px);
+    }
+
+    .fig10 {
+        position: absolute;
+        -webkit-transform: translateY(50px) translateX(0px);
+            -ms-transform: translateY(50px) translateX(0px);
+                transform: translateY(50px) translateX(0px);
+    }
+
+    .fig20 {
+        position: absolute;
+        -webkit-transform: translateY(30px) translateX(0px);
+            -ms-transform: translateY(30px) translateX(0px);
+                transform: translateY(30px) translateX(0px);
+    }
+}
+
+@media screen and (max-width: 700px){
+    
+    .container {
+        height: 100%;
+        height: auto;
+    }
+    
+    .banner {
+        width: 100%;
+        height: 100%;
+        height: auto;
+    }
+    
+    .background {
+        display: none;
+    }
+    
+    .banner-info {
+        width: 360px;
+        font-size: 25px;
+    }
+    
+    .banner nav {
+        background-color: #d7c5af;
+        order: 7;
+    }
+    
+    .banner-center-lang {
+        padding: 0px 0 15px;
+        height: 430px;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 100%;
+                flex: 1 0 100%;
+        background-color: #d7c5af;
+        background-image: url(objetos/banner-direito.svg);
+        background-position:bottom;
+        background-repeat: repeat-x;
+        order: 8;
+    }
+    
+    .banner .bordarodape {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: #642a7b;
+        background-image: url(objetos/borda-lateral.svg);
+        display: block;
+        height: 70px;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 100%;
+                flex: 1 0 100%;
+        order: 9;
+    }
+    
+    .banner-center-info {
+        height: 470px;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 100%;
+                flex: 1 0 100%;
+        padding: 35px 0;
+        background-color: #642a7b;
+        background-image: url(objetos/banner-esquerdo.svg);
+        background-position:bottom;
+        background-repeat: repeat-x;
+        order: 10;
+    }
+    
+    .banner footer {
+        background-color: #642a7b;
+        order: 11;
+    }
+    
+    .banner-image-info {
+        padding: 0;   
+    }
+}
+
+@media screen and (max-width: 475px){
+    
+    .banner-image-lang {
+        padding: 0;
+    }
+    
+    .banner-lang-text h1 {
+        font-size: 29px;
+    }
+    
+    .banner-text-info h1 {
+        font-size: 45px;
+    }
+    
+    .banner-center-lang {
+        background-size: cover;
+    }
+    
+    .banner-center-info {
+        background-size: cover;
+    }
+    
+    .banner-center-info img {
+        width: 260px;
+    }
+    
+    .banner-image-lang img {
+        width: 240px;
+    }
+}

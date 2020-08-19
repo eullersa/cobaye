@@ -5,43 +5,25 @@ var button = document.querySelector(".button");
 var link = document.querySelector(".linguaselecionada");
 
 ingles.addEventListener("click", function() {
-    if (ingles.getAttribute("class") === "ingles" && button.getAttribute("class") == "button botao") {
-        espanhol.classList.remove("pais");
-        frances.classList.remove("pais");
         ingles.classList.add("pais");
-    } else {
+        frances.classList.remove("pais");
+        espanhol.classList.remove("pais");
         button.classList.add("botao");
         link.setAttribute("href", "ingles.html");
-        espanhol.classList.remove("pais");
-        frances.classList.remove("pais");
-        ingles.classList.add("pais");
-    }
 })
 
 espanhol.addEventListener("click", function() {
-    if (espanhol.getAttribute("class") === "espanhol" && button.getAttribute("class") == "button botao") {
         ingles.classList.remove("pais");
         frances.classList.remove("pais");
         espanhol.classList.add("pais");
-    } else {
         button.classList.add("botao");
         link.setAttribute("href", "espanhol.html");
-        ingles.classList.remove("pais");
-        frances.classList.remove("pais");
-        espanhol.classList.add("pais");
-    }
 })
 
 frances.addEventListener("click", function() {
-    if (frances.getAttribute("class") === "frances" && button.getAttribute("class") == "button botao") {
-        espanhol.classList.remove("pais");
         ingles.classList.remove("pais");
         frances.classList.add("pais");
-    } else {
+        espanhol.classList.remove("pais");
         button.classList.add("botao");
         link.setAttribute("href", "frances.html");
-        espanhol.classList.remove("pais");
-        ingles.classList.remove("pais");
-        frances.classList.add("pais");
-    }
 })
